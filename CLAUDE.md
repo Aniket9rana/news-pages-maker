@@ -2,6 +2,9 @@
 
 AI-assisted layout tool for a Hindi daily newspaper page (Saroha Bulletin, Bijnor edition). The editor adds stories (text + photos), an LLM scores each 1–5 for importance, and a layout engine fills an 8-column page edge to edge, giving important stories more space, bigger headlines and photos.
 
+## Repo
+Public GitHub repo: https://github.com/Aniket9rana/news-pages-maker (branch `main`). It is public, so never commit `.env.local` or keys. `public/sample/` holds real photos and `fixtures/` holds verbatim news text from the newspaper's emails.
+
 ## Commands
 - `npm run dev` — dev server on **port 3100**
 - `npm test` — Vitest packer tests (`tests/pack.test.ts`)
